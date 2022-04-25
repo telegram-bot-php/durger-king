@@ -1,0 +1,16 @@
+{
+   "name": "vendor_name/example",
+   "description": "Describe your awesome project here",
+   "minimum-stability": "stable",
+   "license": "The Unlicense",
+   "require": {
+	  "php": ">=8.0",
+	  "shahradelahi/easy-http": "^v1.0.1",
+	  "shahradelahi/telegram-bot": "dev-master"
+   },
+   "autoload": {
+	  "psr-4": {
+		 "VendorName\\Example\\": "src/"
+	  }
+   }
+}
