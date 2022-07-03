@@ -1,16 +1,15 @@
 {
-   "name": "vendor_name/example",
+   "name": "telegram-bot-php/durger-king",
    "description": "Describe your awesome project here",
    "minimum-stability": "stable",
    "license": "The Unlicense",
    "require": {
 	  "php": ">=8.0",
-	  "shahradelahi/easy-http": "^v1.0.1",
-	  "shahradelahi/telegram-bot": "dev-master"
+	  "telegram-bot-php/core": "dev-master"
    },
    "autoload": {
 	  "psr-4": {
-		 "VendorName\\Example\\": "src/"
+		 "ShahradElahi\\DurgerKing\\": "src/"
 	  }
    }
 }

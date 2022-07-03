@@ -1,7 +1,8 @@
-# Redirect all requests to the service.php file and skip the existing files.
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ service.php [L]
-</IfModule>
+RewriteEngine On
+
+<Directory /public>
+    Options All +Indexes
+</Directory>
+
+RewriteCond %{REQUEST_URI} !/public
+RewriteRule ^(.*)$ service.php [L]

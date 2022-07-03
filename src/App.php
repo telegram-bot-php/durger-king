@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Example;
+namespace ShahradElahi\DurgerKing;
 
 use TelegramBot\Entities\Update;
 use TelegramBot\Request;
@@ -14,30 +14,35 @@ use TelegramBot\Request;
  *
  * @link https://core.telegram.org/bots/api#getting-updates
  */
-class App extends \TelegramBot\Receiver
+class App extends \TelegramBot\WebhookHandler
 {
 
-    /**
-     * This method is called when the bot receives a new message.
-     *
-     * @param Update $update
-     * @return void
-     */
-    public function __process(Update $update): void
-    {
-        self::addPlugin([
-            'Hello' => Plugins\Hello::class,
-        ]);
+	public function __construct(string $api_key = '')
+	{
+		parent::__construct($api_key);
+		self::setDebugMode(259760855);
+	}
 
-        if ($update->getMessage()->getText() === '/ping') {
-            Request::sendMessage([
-                'chat_id' => $update->getMessage()->getChat()->getId(),
-                'parse_mode' => 'Markdown',
-                'text' => '`Pong!`',
-            ]);
-        }
+	/**
+	 * This method is called when the bot receives a new message.
+	 *
+	 * @param Update $update
+	 * @return void
+	 */
+	public function __process(Update $update): void
+	{
+		if ($update->getMessage()->getText() === '/ping') {
+			Request::sendMessage([
+				'chat_id' => $update->getMessage()->getChat()->getId(),
+				'parse_mode' => 'Markdown',
+				'text' => '`Pong!`',
+			]);
+		}
 
-        self::match();
-    }
+		self::loadPluginsWith([
+			'Commands' => Plugins\Commands::class,
+			'WebService' => Plugins\WebService::class,
+		]);
+	}
 
 }
