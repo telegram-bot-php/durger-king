@@ -12,15 +12,15 @@ namespace ShahradElahi\DurgerKing\Utils;
 class Common
 {
 
-	/**
-	 * Convert json string to Pretty JSON
-	 *
-	 * @param string $json
-	 * @return string
-	 */
-	public static function jsonToPretty(string $json): string
-	{
-		return json_encode(json_decode($json, true), JSON_PRETTY_PRINT);
-	}
+    /**
+     * Convert json string to Pretty JSON
+     *
+     * @param string $json
+     * @return string
+     */
+    public static function jsonToPretty(string $json): string
+    {
+        return json_encode(json_decode($json, true), JSON_PRETTY_PRINT);
+    }
 
 }

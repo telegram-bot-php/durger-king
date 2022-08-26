@@ -3,8 +3,8 @@
 namespace ShahradElahi\DurgerKing\Plugins;
 
 use ShahradElahi\DurgerKing\Utils\Common;
-use TelegramBot\Entities\Update;
-use TelegramBot\Interfaces\ParseMode;
+use TelegramBot\Entities\WebAppData;
+use TelegramBot\Enums\ParseMode;
 use TelegramBot\Request;
 
 /**
@@ -19,20 +19,21 @@ use TelegramBot\Request;
 class WebService extends \TelegramBot\Plugin
 {
 
-	/**
-	 * @param Update $update
-	 * @return \Generator
-	 */
-	protected function onWebData(Update $update): \Generator
-	{
-		if ($update->getWebData()->getRawData()['method'] == "makeOrder") {
-			yield Request::sendMessage([
-				'chat_id' => $update->getWebData()->getRawData()['user']['id'],
-				'parse_mode' => ParseMode::MARKDOWN,
-				'text' => "Your order has been placed successfully! 🍟" . "\n\n" .
-					"Your order is: \n`" . Common::jsonToPretty($update->getWebData()->getRawData()['order_data']) . "`"
-			]);
-		}
-	}
+    /**
+     * @param int $update_id
+     * @param WebAppData $webAppData
+     * @return \Generator
+     */
+    public function onWebAppData(int $update_id, WebAppData $webAppData): \Generator
+    {
+        if ($webAppData->getRawData()['method'] == "makeOrder") {
+            yield Request::sendMessage([
+                'chat_id' => $webAppData->getRawData()['user']['id'],
+                'parse_mode' => ParseMode::MARKDOWN,
+                'text' => "Your order has been placed successfully! 🍟" . "\n\n" .
+                    "Your order is: \n`" . Common::jsonToPretty($webAppData->getRawData()['order_data']) . "`"
+            ]);
+        }
+    }
 
 }

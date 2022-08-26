@@ -15,6 +15,6 @@ cd durger-king && composer install
 
 2. Use `.env.example` as a template to create `.env` file.
 
-3. Set the `TELEGRAM_API_KEY` environment variable to the bot token you received from [@BotFather](https://t.me/BotFather).
+3. Set the `TELEGRAM_BOT_TOKEN` environment variable to the bot token you received from [@BotFather](https://t.me/BotFather).
 
 4. Upload project to your server and set the with direct path to the `server.php` file.

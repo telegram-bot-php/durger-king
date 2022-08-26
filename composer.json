@@ -5,7 +5,7 @@
    "license": "The Unlicense",
    "require": {
 	  "php": ">=8.0",
-	  "telegram-bot-php/core": "dev-master"
+	  "telegram-bot-php/core": "v1.0.0"
    },
    "autoload": {
 	  "psr-4": {
