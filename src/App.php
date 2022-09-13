@@ -4,6 +4,7 @@ namespace ShahradElahi\DurgerKing;
 
 use TelegramBot\Entities\Update;
 use TelegramBot\Request;
+use TelegramBot\Telegram;
 
 /**
  * Class App
@@ -25,6 +26,8 @@ class App extends \TelegramBot\UpdateHandler
      */
     public function __process(Update $update): void
     {
+        Telegram::setAdminId($_ENV['ADMIN_CHAT_ID']);
+
         if ($update->getMessage()->getText() === '/ping') {
             Request::sendMessage([
                 'chat_id' => $update->getMessage()->getChat()->getId(),

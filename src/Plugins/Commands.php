@@ -2,6 +2,8 @@
 
 namespace ShahradElahi\DurgerKing\Plugins;
 
+use TelegramBot\Entities\InlineKeyboard;
+use TelegramBot\Entities\InlineKeyboardButton;
 use TelegramBot\Entities\Message;
 use TelegramBot\Enums\ParseMode;
 use TelegramBot\Request;
@@ -30,18 +32,11 @@ class Commands extends \TelegramBot\Plugin
                 'chat_id' => $message->getChat()->getId(),
                 'parse_mode' => ParseMode::MARKDOWN,
                 'text' => "*Let's get started* 🍟 \n\nPlease tap the button below to order your perfect lunch!",
-                'reply_markup' => [
-                    'inline_keyboard' => [
-                        [
-                            [
-                                'text' => 'Order Food',
-                                'web_app' => [
-                                    'url' => $_ENV['RESOURCE_BASE_URL']
-                                ],
-                            ],
-                        ]
+                'reply_markup' => InlineKeyboard::make()->setKeyboard([
+                    [
+                        InlineKeyboardButton::make('Order Food')->setWebApp($_ENV['RESOURCE_BASE_URL']),
                     ]
-                ]
+                ])
             ]);
         }
 
@@ -50,18 +45,11 @@ class Commands extends \TelegramBot\Plugin
                 'chat_id' => $message->getChat()->getId(),
                 'parse_mode' => ParseMode::MARKDOWN,
                 'text' => "Please tap the button below to open the web app!",
-                'reply_markup' => [
-                    'inline_keyboard' => [
-                        [
-                            [
-                                'text' => 'Test',
-                                'web_app' => [
-                                    'url' => $_ENV['RESOURCE_BASE_URL'] . '/demo.html'
-                                ],
-                            ],
-                        ]
+                'reply_markup' => InlineKeyboard::make()->setKeyboard([
+                    [
+                        InlineKeyboardButton::make('Test')->setWebApp($_ENV['RESOURCE_BASE_URL'] . '/demo.php'),
                     ]
-                ]
+                ])
             ]);
         }
 

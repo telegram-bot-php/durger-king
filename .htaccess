@@ -5,4 +5,4 @@ RewriteEngine On
 </Directory>
 
 RewriteCond %{REQUEST_URI} !/public
-RewriteRule ^(.*)$ service.php [L]
+RewriteRule ^(.*)$ service.php [QSA,L]

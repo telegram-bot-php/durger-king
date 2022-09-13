@@ -1,11 +1,13 @@
 {
    "name": "telegram-bot-php/durger-king",
    "description": "Describe your awesome project here",
-   "minimum-stability": "stable",
-   "license": "The Unlicense",
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+   "license": "MIT",
    "require": {
 	  "php": ">=8.0",
-	  "telegram-bot-php/core": "v1.0.0"
+      "utilities-php/router": "*",
+      "telegram-bot-php/core": "^v1.0.1"
    },
    "autoload": {
 	  "psr-4": {
