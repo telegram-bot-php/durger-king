@@ -5,13 +5,16 @@
    "prefer-stable": true,
    "license": "MIT",
    "require": {
-	  "php": ">=8.0",
+      "php": ">=8.0",
       "utilities-php/routing": "dev-master",
       "telegram-bot-php/core": "^v1.0.1"
    },
+   "scripts": {
+      "heroku-deploy": "./bin/heroku-deploy.sh"
+   },
    "autoload": {
-	  "psr-4": {
-		 "ShahradElahi\\DurgerKing\\": "src/"
-	  }
+      "psr-4": {
+         "ShahradElahi\\DurgerKing\\": "src/"
+      }
    }
 }

@@ -22,6 +22,7 @@ cd durger-king && composer install
 3. Upload project to your server and set the with direct path to the `service.php` file.
 
 4. Please make sure that webhook is set correctly.
+   - Your webhook should be set to `https://<your-domain>/telegram`.
 
 5. Enjoy! 🎉
 
