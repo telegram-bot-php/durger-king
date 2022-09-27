@@ -334,7 +334,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Burger <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Meat™</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$4.99</div>
@@ -350,7 +350,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Fries <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Po-ta-toes</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$1.49</div>
@@ -366,7 +366,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Hotdog <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">0% dog, 100% hot</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$3.49</div>
@@ -382,7 +382,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Tako <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Mucho más</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$3.99</div>
@@ -398,7 +398,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Pizza <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">That’s amore</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$7.99</div>
@@ -414,7 +414,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Donut <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Hole included</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$1.49</div>
@@ -424,12 +424,13 @@
 					<picture class="cafe-item-lottie js-item-lottie">
 						<source type="application/x-tgsticker" srcset="./img/tgs/Popcorn.tgs">
 						<img src="./img/Popcorn_148.png"
-						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjg4LDQ5N2MtMTUsMi0xNDYtNC0xNDktMTAtNy0xNi05LTM2LTEzLTUzLTEyLTUxLTIyLTEwMy0zMS0xNTQtNC0xNy0xNC00Ni05LTYyLDMtMTEsMTYtMTUsMTctMjQsMS04LTItMTQsNC0yMCw1LTUsMTctMTQsMjEtMjAsMS00LDAtOCwwLTEyLDAtMywzNy00MywzOS00Myw3LTMsMTMsMiwxOSwyLDQsMCw0LTgsOC05LDMtMiw4LTEsMTEtMywxNC01LDMwLTMwLDQ0LTI3LDcsMSwxMywyMCwxNSwxOSwxMS0yLDE3LTksMjktMywzLDEsNSw1LDgsNiwyMiwyLDExLTYsMjksMTUsNiw3LDE3LDMsMjMsMTAsNyw2LDEsMTQsNCwxOSwxLDEsMTEsNCwxNCw2LDksMTAsMTQsMzAsMTcsNDIsMSwxLDcsMiw4LDIsNiw0LDYsMTAsOSwxNCwyLDIsNywxLDEwLDYsOSwxOS0yMCwxMjMtMjYsMTQ5LTMsMTgtMTYsMTEwLTI2LDExOS0xMCw5LTMwLDI3LTQzLDMxLTksMi0yMiwwLTMyLDB6Ii8+PC9zdmc+');" alt="Popcorn">
+						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjg4LDQ5N2MtMTUsMi0xNDYtNC0xNDktMTAtNy0xNi05LTM2LTEzLTUzLTEyLTUxLTIyLTEwMy0zMS0xNTQtNC0xNy0xNC00Ni05LTYyLDMtMTEsMTYtMTUsMTctMjQsMS04LTItMTQsNC0yMCw1LTUsMTctMTQsMjEtMjAsMS00LDAtOCwwLTEyLDAtMywzNy00MywzOS00Myw3LTMsMTMsMiwxOSwyLDQsMCw0LTgsOC05LDMtMiw4LTEsMTEtMywxNC01LDMwLTMwLDQ0LTI3LDcsMSwxMywyMCwxNSwxOSwxMS0yLDE3LTksMjktMywzLDEsNSw1LDgsNiwyMiwyLDExLTYsMjksMTUsNiw3LDE3LDMsMjMsMTAsNyw2LDEsMTQsNCwxOSwxLDEsMTEsNCwxNCw2LDksMTAsMTQsMzAsMTcsNDIsMSwxLDcsMiw4LDIsNiw0LDYsMTAsOSwxNCwyLDIsNywxLDEwLDYsOSwxOS0yMCwxMjMtMjYsMTQ5LTMsMTgtMTYsMTEwLTI2LDExOS0xMCw5LTMwLDI3LTQzLDMxLTksMi0yMiwwLTMyLDB6Ii8+PC9zdmc+');"
+						     alt="Popcorn">
 					</picture>
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Popcorn <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Lights, camera, corn</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$1.99</div>
@@ -439,12 +440,13 @@
 					<picture class="cafe-item-lottie js-item-lottie">
 						<source type="application/x-tgsticker" srcset="./img/tgs/Coke.tgs">
 						<img src="./img/Coke_148.png"
-						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjQ4LDUwNWMtODYsMC03OC00Ny04NS0xMTMtMi0yMC05LTE1Ny0xNS0xNjMtMTEtMTItMTItNy0xMC0yNiwwLTQsMS05LDMtMTIsMTYtMTYsOTMtMTgsOTUtMjEsNi05LTMtMjksMi00MCw4LTE2LDEwMi00MCwxMTAtMjcsMjAsMjktNzMsMjktODUsNDAtMiwyLTMsMjUtMSwyNywxNSwxMSw4OC02LDk2LDIyLDEwLDMxLTcsMjEtOSwzNy0yLDIxLTMsNDItNSw2NC0zLDI5LTgsMTczLTIyLDE4OC0xOSwxOS00OSwyNC03NCwyNHoiLz48L3N2Zz4=');" alt="">
+						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjQ4LDUwNWMtODYsMC03OC00Ny04NS0xMTMtMi0yMC05LTE1Ny0xNS0xNjMtMTEtMTItMTItNy0xMC0yNiwwLTQsMS05LDMtMTIsMTYtMTYsOTMtMTgsOTUtMjEsNi05LTMtMjksMi00MCw4LTE2LDEwMi00MCwxMTAtMjcsMjAsMjktNzMsMjktODUsNDAtMiwyLTMsMjUtMSwyNywxNSwxMSw4OC02LDk2LDIyLDEwLDMxLTcsMjEtOSwzNy0yLDIxLTMsNDItNSw2NC0zLDI5LTgsMTczLTIyLDE4OC0xOSwxOS00OSwyNC03NCwyNHoiLz48L3N2Zz4=');"
+						     alt="">
 					</picture>
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Coke <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">The liquid kind</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$1.49</div>
@@ -454,12 +456,13 @@
 					<picture class="cafe-item-lottie js-item-lottie">
 						<source type="application/x-tgsticker" srcset="./img/tgs/Cake.tgs">
 						<img src="./img/Cake_148.png"
-						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNOTIsNDcyYy0zLDAtMTAsMS0xMy0yLTEwLTEyLTctOTQtOS0xMTQtMi0yMC0xOC0xMzgtOC0xNDgsMjktMjksNzgtNDYsMTE1LTY0LDIyLTExLDE2LTMwLDI5LTUwLDE2LTI0LDI4LTEyLDQ1LTIwLDEsMCwxLTEwLDQtMTIsNS00LDE3LDEzLDIxLDE1LDIsMSwyLTQsMy02LDEtMSw5LTksMTItNiw3LDgsMywxOCw3LDI1LDMsNSwyNyw3LDIxLDIwLTIsMywyNSwxMiwzMiwxNSwyNSwxMSw1MSwyMyw3NSwzNiwxNiw5LDM1LDE3LDQ3LDMyLDMxLDQwLDE1LDEyMSw5LDE2OC0yLDExLTIsNDctMTQsNTMtMzYsMTctMTI1LDIzLTE2NywzMC02OCwxMC0xNDAsMjgtMjA5LDI4eiIvPjwvc3ZnPg==');" alt="Cake">
+						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNOTIsNDcyYy0zLDAtMTAsMS0xMy0yLTEwLTEyLTctOTQtOS0xMTQtMi0yMC0xOC0xMzgtOC0xNDgsMjktMjksNzgtNDYsMTE1LTY0LDIyLTExLDE2LTMwLDI5LTUwLDE2LTI0LDI4LTEyLDQ1LTIwLDEsMCwxLTEwLDQtMTIsNS00LDE3LDEzLDIxLDE1LDIsMSwyLTQsMy02LDEtMSw5LTksMTItNiw3LDgsMywxOCw3LDI1LDMsNSwyNyw3LDIxLDIwLTIsMywyNSwxMiwzMiwxNSwyNSwxMSw1MSwyMyw3NSwzNiwxNiw5LDM1LDE3LDQ3LDMyLDMxLDQwLDE1LDEyMSw5LDE2OC0yLDExLTIsNDctMTQsNTMtMzYsMTctMTI1LDIzLTE2NywzMC02OCwxMC0xNDAsMjgtMjA5LDI4eiIvPjwvc3ZnPg==');"
+						     alt="Cake">
 					</picture>
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Cake <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Bread substitute</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$10.99</div>
@@ -475,7 +478,7 @@
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Icecream <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Cone of shame</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$5.99</div>
@@ -485,12 +488,13 @@
 					<picture class="cafe-item-lottie js-item-lottie">
 						<source type="application/x-tgsticker" srcset="./img/tgs/Cookie.tgs">
 						<img src="./img/Cookie_148.png"
-						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjY5LDQ0MmMtNTIsMC0xMTMtMTUtMTUzLTQ5LTE2OS0xNDMsMzItMzkyLDIyMC0zMTcsMTk2LDc5LDEzOCwzNjEtNjcsMzY2eiIvPjwvc3ZnPg==');" alt="Cookie">
+						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjY5LDQ0MmMtNTIsMC0xMTMtMTUtMTUzLTQ5LTE2OS0xNDMsMzItMzkyLDIyMC0zMTcsMTk2LDc5LDEzOCwzNjEtNjcsMzY2eiIvPjwvc3ZnPg==');"
+						     alt="Cookie">
 					</picture>
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Cookie <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Milk’s favorite</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$3.99</div>
@@ -500,12 +504,13 @@
 					<picture class="cafe-item-lottie js-item-lottie">
 						<source type="application/x-tgsticker" srcset="./img/tgs/Flan.tgs">
 						<img src="./img/Flan_148.png"
-						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjU0LDQzMWMtNjgtMS0xNDQtMTUtMTk1LTYzLTUyLTQ4LTUxLTExNSwyLTE2MywxOC0xNyw2NS0zNCw3NC00Miw4LTgsOS0yMSwxOS0yOSw0MC0zNiwxMjAtMzcsMTY5LTE5LDE2LDYsMzQsMTQsNDQsMjksNCw1LDQsMTMsOSwxOCw4LDksMzIsMTQsNDMsMjAsNDMsMjYsODMsNzEsNzEsMTI1LTIyLDk2LTE1MywxMjQtMjM3LDEyNHoiLz48L3N2Zz4=');" alt="Flan">
+						     style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iLTMwMCUiIHgyPSItMjAwJSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii0xMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1vcGFjaXR5PSIuMDciLz48c3RvcCBvZmZzZXQ9IjExMCUiIHN0b3Atb3BhY2l0eT0iLjEiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MSIgZnJvbT0iLTMwMCUiIHRvPSIxMjAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJ4MiIgZnJvbT0iLTIwMCUiIHRvPSIxMzAwJSIgZHVyPSIzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSJ1cmwoI2cpIiBkPSJNMjU0LDQzMWMtNjgtMS0xNDQtMTUtMTk1LTYzLTUyLTQ4LTUxLTExNSwyLTE2MywxOC0xNyw2NS0zNCw3NC00Miw4LTgsOS0yMSwxOS0yOSw0MC0zNiwxMjAtMzcsMTY5LTE5LDE2LDYsMzQsMTQsNDQsMjksNCw1LDQsMTMsOSwxOCw4LDksMzIsMTQsNDMsMjAsNDMsMjYsODMsNzEsNzEsMTI1LTIyLDk2LTE1MywxMjQtMjM3LDEyNHoiLz48L3N2Zz4=');"
+						     alt="Flan">
 					</picture>
 				</div>
 				<div class="cafe-order-item-label">
 					<div class="cafe-order-item-title">Flan <span class="cafe-order-item-counter"><span
-							class="js-order-item-counter">1</span>x</span></div>
+									class="js-order-item-counter">1</span>x</span></div>
 					<div class="cafe-order-item-description">Flan-tastic</div>
 				</div>
 				<div class="cafe-order-item-price js-order-item-price">$7.99</div>
@@ -525,15 +530,13 @@
 </div>
 <script src="https://tg.dev/js/jquery.min.js"></script>
 <script src="https://tg.dev/js/tgsticker.js?27"></script>
-<script src="js/cafe.js?version=<?php echo filemtime('js/cafe.js'); ?>"></script>
+<script src="js/cafe.js?version=<?php echo uniqid() ?>"></script>
 <script>
-	const basePath = window.location.pathname.split('/').slice(0, -2).join('/');
     Cafe.init({
-        "apiUrl": `${basePath}/service.php`,
+        "apiUrl": "<?php echo $_ENV['REMOTE_PATH'] . '/telegram' ?>",
         "userId": 0,
         "userHash": null
     });
 </script>
 </body>
 </html>
-<!-- page generated in 1.46ms -->

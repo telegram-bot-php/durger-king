@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace ShahradElahi\DurgerKing\Plugins;
 
@@ -27,14 +27,14 @@ class Commands extends \TelegramBot\Plugin
      */
     public function onMessage(int $update_id, Message $message): \Generator
     {
-        if ($message->getText() == '/start') {
+        if ($message->getText() == '/start' || $message->getText() == '/order') {
             yield Request::sendMessage([
                 'chat_id' => $message->getChat()->getId(),
                 'parse_mode' => ParseMode::MARKDOWN,
                 'text' => "*Let's get started* 🍟 \n\nPlease tap the button below to order your perfect lunch!",
                 'reply_markup' => InlineKeyboard::make()->setKeyboard([
                     [
-                        InlineKeyboardButton::make('Order Food')->setWebApp($_ENV['RESOURCE_BASE_URL']),
+                        InlineKeyboardButton::make('Order Food')->setWebApp($_ENV['RESOURCE_PATH']),
                     ]
                 ])
             ]);
@@ -47,7 +47,7 @@ class Commands extends \TelegramBot\Plugin
                 'text' => "Please tap the button below to open the web app!",
                 'reply_markup' => InlineKeyboard::make()->setKeyboard([
                     [
-                        InlineKeyboardButton::make('Test')->setWebApp($_ENV['RESOURCE_BASE_URL'] . '/demo.php'),
+                        InlineKeyboardButton::make('Test')->setWebApp($_ENV['RESOURCE_PATH'] . '/demo.php'),
                     ]
                 ])
             ]);
@@ -59,6 +59,7 @@ class Commands extends \TelegramBot\Plugin
                 'text' => "This is the help page. You can use the following commands:\n\n" .
                     "/start - Start the bot\n" .
                     "/order - Order a burger\n" .
+                    "/test - Test the web app\n" .
                     "/help - Show this help page"
             ]);
         }

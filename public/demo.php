@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="light" style="--tg-viewport-height:100vh; --tg-viewport-stable-height:100vh;" data-lt-installed="true" lang="en">
+<html class="light" style="--tg-viewport-height:100vh; --tg-viewport-stable-height:100vh;" data-lt-installed="true"
+      lang="en">
 <script>(function () {
         window['_docs_annotate_canvas_by_ext'] = 'kohfgcgbkjodfcfkcackpagifgbcmimk';
     })();</script>
@@ -129,7 +130,7 @@
 <div class="viewport-stable_border" text="1920 x 880 | is_expanded: true"></div>
 <script src="https://tg.dev/js/jquery.min.js"></script>
 <script src="https://tg.dev/js/bootstrap.min.js"></script>
-<script src="js/webappdemo.js?version=<?php echo filemtime('js/cafe.js'); ?>"></script>
+<script src="js/webappdemo.js?version=<?php echo uniqid() ?>"></script>
 <script>
     Telegram.WebApp.onEvent('themeChanged', function () {
         $('#theme_data').html(JSON.stringify(Telegram.WebApp.themeParams, null, 2));

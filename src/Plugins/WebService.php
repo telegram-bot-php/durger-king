@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace ShahradElahi\DurgerKing\Plugins;
 
@@ -7,6 +7,8 @@ use TelegramBot\Entities\InlineKeyboardButton;
 use TelegramBot\Entities\WebAppData;
 use TelegramBot\Enums\ParseMode;
 use TelegramBot\Request;
+use Utilities\Routing\Response;
+use Utilities\Routing\Utils\StatusCode;
 
 /**
  * Class WebService
@@ -28,7 +30,6 @@ class WebService extends \TelegramBot\Plugin
     {
         if ($webAppData->getRawData()['method'] == "makeOrder") {
             header('Content-Type: application/json');
-            echo json_encode(['ok' => true]);
 
             yield Request::sendMessage([
                 'chat_id' => $webAppData->getUser()->getId(),
@@ -37,17 +38,17 @@ class WebService extends \TelegramBot\Plugin
                     "Your order is: \n`" . $this->parseOrder($webAppData->getRawData()['order_data']) . "`" . "\n" .
                     "Your order will be delivered to you in 30 minutes. 🚚",
             ]);
+
+            Response::send(StatusCode::OK);
         }
 
         if ($webAppData->getRawData()['method'] == "checkInitData") {
             header('Content-Type: application/json');
-            echo json_encode(['ok' => true]);
-            yield;
+            Response::send(StatusCode::OK);
         }
 
         if ($webAppData->getRawData()['method'] == "sendMessage") {
             header('Content-Type: application/json');
-            echo json_encode(['ok' => true]);
 
             yield Request::sendMessage([
                 'chat_id' => $webAppData->getUser()->getId(),
@@ -61,6 +62,8 @@ class WebService extends \TelegramBot\Plugin
                     ])
                 ])
             ]);
+
+            Response::send(StatusCode::OK);
         }
     }
 

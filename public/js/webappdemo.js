@@ -143,7 +143,7 @@ var DemoApp = {
     apiRequest: function (method, data, onCallback) {
         const authData = DemoApp.initData || '';
         const basePath = window.location.pathname.split('/').slice(0, -3).join('/');
-        $.ajax(`${basePath}/service.php`, {
+        $.ajax(`${basePath}/telegram`, {
             type: 'POST',
             data: $.extend(data, {_auth: authData, method: method}),
             dataType: 'json',
