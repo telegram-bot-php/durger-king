@@ -202,29 +202,42 @@
         },
         {
             "name": "shahradelahi/easy-http",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shahradelahi/easy-http.git",
-                "reference": "49e282d0a033aa5a36aec21c0cef875e64d2b36d"
+                "reference": "d43168615c4b7a393c2434ec2d80414b2e92fdde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shahradelahi/easy-http/zipball/49e282d0a033aa5a36aec21c0cef875e64d2b36d",
-                "reference": "49e282d0a033aa5a36aec21c0cef875e64d2b36d",
+                "url": "https://api.github.com/repos/shahradelahi/easy-http/zipball/d43168615c4b7a393c2434ec2d80414b2e92fdde",
+                "reference": "d43168615c4b7a393c2434ec2d80414b2e92fdde",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-pcntl": "*",
-                "php": ">=8.0"
+                "php": ">=8.0",
+                "symfony/mime": "^v6.1.5",
+                "utilities-php/common": "dev-master"
             },
             "require-dev": {
+                "fakerphp/faker": "~v1.20.0",
                 "phpunit/phpunit": "^9.5.20"
+            },
+            "suggest": {
+                "ext-curl": "Required for processing HTTP Requests (*)",
+                "ext-json": "Required for parsing Json (*)",
+                "ext-pcntl": "Required for creating a websocket Server/Client (*)",
+                "fakerphp/faker": "Required for generating fake data for testing (~1.20.0)",
+                "symfony/mime": "Required for detecting mime types (~6.1.5)"
             },
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/Helpers/Functions.php"
+                ],
                 "psr-4": {
                     "EasyHttp\\": "src/"
                 }
@@ -245,7 +258,7 @@
                     "role": "advisor"
                 }
             ],
-            "description": "A Easy HTTP Client library for PHP",
+            "description": "An easy to use HTTP/WebSocket client for PHP",
             "homepage": "https://github.com/shahradelahi/easy-http",
             "keywords": [
                 "client",
@@ -258,7 +271,7 @@
                 "issues": "https://github.com/shahradelahi/easy-http/issues",
                 "source": "https://github.com/shahradelahi/easy-http"
             },
-            "time": "2022-07-06T17:59:40+00:00"
+            "time": "2022-10-11T18:47:09+00:00"
         },
         {
             "name": "symfony/dotenv",
@@ -335,16 +348,16 @@
         },
         {
             "name": "symfony/intl",
-            "version": "v6.1.0",
+            "version": "v6.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "9fc07ba57eb33d44c6b3b86b4e1ef927620d1a39"
+                "reference": "9ab546d9054b34feb2cb728349f6b8e8f18d4c43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/9fc07ba57eb33d44c6b3b86b4e1ef927620d1a39",
-                "reference": "9fc07ba57eb33d44c6b3b86b4e1ef927620d1a39",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/9ab546d9054b34feb2cb728349f6b8e8f18d4c43",
+                "reference": "9ab546d9054b34feb2cb728349f6b8e8f18d4c43",
                 "shasum": ""
             },
             "require": {
@@ -395,7 +408,7 @@
                 "localization"
             ],
             "support": {
-                "source": "https://github.com/symfony/intl/tree/v6.1.0"
+                "source": "https://github.com/symfony/intl/tree/v6.1.6"
             },
             "funding": [
                 {
@@ -411,20 +424,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-12T16:22:53+00:00"
+            "time": "2022-10-07T08:04:03+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v6.1.4",
+            "version": "v6.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "5d1de2d3c52f8ca469c488f4b9e007e9e9cee0b3"
+                "reference": "5ae192b9a39730435cfec025a499f79d05ac68a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/5d1de2d3c52f8ca469c488f4b9e007e9e9cee0b3",
-                "reference": "5d1de2d3c52f8ca469c488f4b9e007e9e9cee0b3",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/5ae192b9a39730435cfec025a499f79d05ac68a3",
+                "reference": "5ae192b9a39730435cfec025a499f79d05ac68a3",
                 "shasum": ""
             },
             "require": {
@@ -436,7 +449,8 @@
                 "egulias/email-validator": "~3.0.0",
                 "phpdocumentor/reflection-docblock": "<3.2.2",
                 "phpdocumentor/type-resolver": "<1.4.0",
-                "symfony/mailer": "<5.4"
+                "symfony/mailer": "<5.4",
+                "symfony/serializer": "<5.4.14|>=6.0,<6.0.14|>=6.1,<6.1.6"
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10|^3.1",
@@ -444,7 +458,7 @@
                 "symfony/dependency-injection": "^5.4|^6.0",
                 "symfony/property-access": "^5.4|^6.0",
                 "symfony/property-info": "^5.4|^6.0",
-                "symfony/serializer": "^5.4|^6.0"
+                "symfony/serializer": "^5.4.14|~6.0.14|^6.1.6"
             },
             "type": "library",
             "autoload": {
@@ -476,7 +490,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v6.1.4"
+                "source": "https://github.com/symfony/mime/tree/v6.1.6"
             },
             "funding": [
                 {
@@ -492,7 +506,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-19T14:27:04+00:00"
+            "time": "2022-10-07T08:04:03+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -991,16 +1005,16 @@
         },
         {
             "name": "telegram-bot-php/core",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/telegram-bot-php/core.git",
-                "reference": "d99ab188950007d43cbee67bd014b1e763eaf1a9"
+                "reference": "72ea7ab30e59a1457c19253fbe6bbc14d32ae308"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/telegram-bot-php/core/zipball/d99ab188950007d43cbee67bd014b1e763eaf1a9",
-                "reference": "d99ab188950007d43cbee67bd014b1e763eaf1a9",
+                "url": "https://api.github.com/repos/telegram-bot-php/core/zipball/72ea7ab30e59a1457c19253fbe6bbc14d32ae308",
+                "reference": "72ea7ab30e59a1457c19253fbe6bbc14d32ae308",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1022,7 @@
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "php": ">=8.0",
-                "shahradelahi/easy-http": "^v1.2.0",
+                "shahradelahi/easy-http": "~v1.3.0",
                 "symfony/dotenv": "^v6.1.0"
             },
             "require-dev": {
@@ -1028,8 +1042,11 @@
             "authors": [
                 {
                     "name": "Shahrad Elahi",
-                    "email": "shahrad@litehex.com",
-                    "role": "developer"
+                    "email": "shahrad@litehex.com"
+                },
+                {
+                    "name": "LiteHex Team",
+                    "email": "opensource@litehex.com"
                 }
             ],
             "description": "A PHP library that makes using Telegram Bot API much easier.",
@@ -1037,14 +1054,16 @@
             "keywords": [
                 "bot",
                 "core",
+                "library",
                 "php",
-                "telegram"
+                "telegram",
+                "update-handler"
             ],
             "support": {
                 "issues": "https://github.com/telegram-bot-php/core/issues",
                 "source": "https://github.com/telegram-bot-php/core"
             },
-            "time": "2022-09-13T14:46:57+00:00"
+            "time": "2022-10-22T07:42:06+00:00"
         },
         {
             "name": "utilities-php/auth",
@@ -1099,12 +1118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/utilities-php/common.git",
-                "reference": "111ccf7487e011e5222a03c4ef9f0365e4e58d8e"
+                "reference": "4869c54afe372dcc62ec07cd7f870f29d4e871c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utilities-php/common/zipball/111ccf7487e011e5222a03c4ef9f0365e4e58d8e",
-                "reference": "111ccf7487e011e5222a03c4ef9f0365e4e58d8e",
+                "url": "https://api.github.com/repos/utilities-php/common/zipball/4869c54afe372dcc62ec07cd7f870f29d4e871c3",
+                "reference": "4869c54afe372dcc62ec07cd7f870f29d4e871c3",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1132,7 @@
                 "ext-pcntl": "*",
                 "nxp/math-executor": "^2.3.0",
                 "php": ">=8.0",
-                "shahradelahi/easy-http": "^v1.2.0",
+                "shahradelahi/easy-http": "*",
                 "utilities-php/validator": "*",
                 "vlucas/phpdotenv": "^v5.4.1"
             },
@@ -1150,7 +1169,7 @@
                 "issues": "https://github.com/utilities-php/utilities-php/issues",
                 "source": "https://github.com/utilities-php/utilities-php"
             },
-            "time": "2022-09-24T14:44:29+00:00"
+            "time": "2022-10-09T08:34:36+00:00"
         },
         {
             "name": "utilities-php/routing",
@@ -1158,12 +1177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/utilities-php/routing.git",
-                "reference": "99032dfb2a431bbea6ac84a0397fc04e321e7cae"
+                "reference": "6a7579e2588de4dde37be9c38453b34b0d867f21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utilities-php/routing/zipball/99032dfb2a431bbea6ac84a0397fc04e321e7cae",
-                "reference": "99032dfb2a431bbea6ac84a0397fc04e321e7cae",
+                "url": "https://api.github.com/repos/utilities-php/routing/zipball/6a7579e2588de4dde37be9c38453b34b0d867f21",
+                "reference": "6a7579e2588de4dde37be9c38453b34b0d867f21",
                 "shasum": ""
             },
             "require": {
@@ -1206,7 +1225,7 @@
                 "issues": "https://github.com/utilities-php/utilities-php/issues",
                 "source": "https://github.com/utilities-php/utilities-php"
             },
-            "time": "2022-09-21T08:23:20+00:00"
+            "time": "2022-10-02T20:43:16+00:00"
         },
         {
             "name": "utilities-php/validator",
@@ -1214,15 +1233,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/utilities-php/validator.git",
-                "reference": "ef79c1399d78bc328a6d8ccff32531fdf26c8cf6"
+                "reference": "11924a03e94b2c7735a7066667b961b9c832d7df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utilities-php/validator/zipball/ef79c1399d78bc328a6d8ccff32531fdf26c8cf6",
-                "reference": "ef79c1399d78bc328a6d8ccff32531fdf26c8cf6",
+                "url": "https://api.github.com/repos/utilities-php/validator/zipball/11924a03e94b2c7735a7066667b961b9c832d7df",
+                "reference": "11924a03e94b2c7735a7066667b961b9c832d7df",
                 "shasum": ""
             },
             "require": {
+                "ext-mbstring": "*",
                 "php": "^8.0",
                 "symfony/intl": "^v6.1.0",
                 "utilities-php/common": "*"
@@ -1271,20 +1291,20 @@
                 "issues": "https://github.com/utilities-php/utilities-php/issues",
                 "source": "https://github.com/utilities-php/utilities-php"
             },
-            "time": "2022-09-26T17:51:12+00:00"
+            "time": "2022-10-02T20:43:12+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v5.4.1",
+            "version": "v5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "264dce589e7ce37a7ba99cb901eed8249fbec92f"
+                "reference": "1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/264dce589e7ce37a7ba99cb901eed8249fbec92f",
-                "reference": "264dce589e7ce37a7ba99cb901eed8249fbec92f",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7",
+                "reference": "1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7",
                 "shasum": ""
             },
             "require": {
@@ -1299,15 +1319,19 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.4.1",
                 "ext-filter": "*",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.21 || ^9.5.10"
+                "phpunit/phpunit": "^7.5.20 || ^8.5.30 || ^9.5.25"
             },
             "suggest": {
                 "ext-filter": "Required to use the boolean validator."
             },
             "type": "library",
             "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": true
+                },
                 "branch-alias": {
-                    "dev-master": "5.4-dev"
+                    "dev-master": "5.5-dev"
                 }
             },
             "autoload": {
@@ -1339,7 +1363,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v5.4.1"
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.5.0"
             },
             "funding": [
                 {
@@ -1351,7 +1375,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-12T23:22:04+00:00"
+            "time": "2022-10-16T01:01:54+00:00"
         }
     ],
     "packages-dev": [],
@@ -1366,5 +1390,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

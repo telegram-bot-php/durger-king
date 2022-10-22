@@ -7,7 +7,7 @@
    "require": {
       "php": ">=8.0",
       "utilities-php/routing": "dev-master",
-      "telegram-bot-php/core": "^v1.0.1"
+      "telegram-bot-php/core": "~v1.0.2"
    },
    "scripts": {
       "heroku-deploy": "./bin/heroku-deploy.sh"
